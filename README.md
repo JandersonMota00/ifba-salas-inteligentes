@@ -8,6 +8,15 @@
 - **Ano:** 2025.1
 
 # Sistema de Monitoramento de Salas Inteligentes
+Desenvolver um pequeno sistema de monitoramento de salas inteligentes, com funcionalidades básicas como:
+- Cadastro de sensores (temperatura, presença, luminosidade);
+- Coleta periódica de dados;
+- Acionamento de ações com base em condições simples (ex: acender luz se presença = true);
+- Geração de relatórios simples.
+
+> Basicamente projetar propositalmente um sistema com problemas de acoplamento, coesão e violação de SOLID, para depois refatorar usando padrões GOF (criação, estruturais e comportamentais).
+
+[A6 - SAJ-ADS08 - Criação e Evolução de um Sistema Mal Projetado.pdf](https://github.com/user-attachments/files/21842005/A6.-.SAJ-ADS08.-.Criacao.e.Evolucao.de.um.Sistema.Mal.Projetado.com.Aplicacao.Guiada.de.Padroes.1.pdf)
 
 ## Integrantes do Projeto
 
