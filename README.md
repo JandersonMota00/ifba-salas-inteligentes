@@ -1,8 +1,8 @@
-# Trabalho de Middleware Modular
+# Trabalho de Monitoramento de Salas Inteligentes
 - **Instituição:** IFBA - Instituto Federal da Bahia
 - **Curso:** Análise e Desenvolvimento de Sistemas (ADS)
 - **Disciplina:** Padrões de Projetos
-- **Projeto:** Sistema de monitoramento de salas inteligentes
+- **Projeto:** Criação e Evolução de um Sistema Mal Projetado com Aplicação Guiada de Padrões
 - **Professor:** Felipe de Souza Silva
 - **Semestre:** 5
 - **Ano:** 2025.1
@@ -23,6 +23,10 @@ Desenvolver um pequeno sistema de monitoramento de salas inteligentes, com funci
 <table>
   <tr>
     <td align="center">
+      <img src="https://avatars.githubusercontent.com/u/111200453?v=4" width="100px;" alt="Foto do Integrante Amanda"/><br />
+      <sub><b><a href="https://github.com/Amandalopes28">Amanda Lopes</a></b></sub>
+    </td>
+    <td align="center">
       <img src="https://avatars.githubusercontent.com/u/80362674?v=4" width="100px;" alt="Foto do Integrante Janderson"/><br />
       <sub><b><a href="https://github.com/JandersonMota">Janderson Mota</a></b></sub>
     </td>
@@ -37,6 +41,20 @@ Desenvolver um pequeno sistema de monitoramento de salas inteligentes, com funci
 - **Linguagem:** Java 21
 
 ## Estrutura do Projeto
+
+### Mal Estruturado
+```
+malestruturado/
+ ├── Main.java
+ ├── Sensor.java
+ ├── SensorTipo.java
+ ├── SensorService.java
+ ├── SalaInteligente.java
+ ├── MonitoramentoService.java
+ └── RelatorioService.java
+```
+
+### Bem Estruturado
 
 ## Diagrama UML
 
