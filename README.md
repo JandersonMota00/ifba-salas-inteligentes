@@ -1,4 +1,4 @@
-# Trabalho de Middleware Modular
+# Criação e Evolução de um Sistema Mal Projetado com Aplicação Guiada de Padrões
 - **Instituição:** IFBA - Instituto Federal da Bahia
 - **Curso:** Análise e Desenvolvimento de Sistemas (ADS)
 - **Disciplina:** Padrões de Projetos
