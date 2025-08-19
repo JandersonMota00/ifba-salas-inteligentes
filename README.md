@@ -30,7 +30,11 @@ Desenvolver um pequeno sistema de monitoramento de salas inteligentes, com funci
       <img src="https://avatars.githubusercontent.com/u/110790276?v=4" width="100px;" alt="Foto da Integrante Sarah"/><br />
       <sub><b><a href="https://github.com/">Sarah Pithon</a></b></sub>
     </td>
-  </tr>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/u/110790276?v=4" width="100px;" alt="Foto da Integrante Amanda"/><br />
+      <sub><b><a href="https://github.com/Amandalopes28">Amanda Lopes</a></b></sub>
+    </td>
+      </tr>
 </table>
 
 ## Tecnologias
