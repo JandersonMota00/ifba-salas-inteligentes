@@ -55,6 +55,24 @@ malestruturado/
 ```
 
 ### Bem Estruturado
+```
+bemestruturado/
+ ├── model/
+ │    ├── Sensor.java
+ │    ├── SensorTipo.java
+ │    └── sensores/
+ │         ├── TemperaturaSensor.java
+ │         ├── PresencaSensor.java
+ │         └── LuminosidadeSensor.java
+ ├── service/
+ │    ├── AcaoStrategy.java
+ │    ├── AcenderLuz.java
+ │    ├── Relatorio.java
+ │    ├── RelatorioTexto.java
+ │    ├── RelatorioFactory.java
+ │    └── SensorFactory.java
+ └── Main.java
+```
 
 ## Diagrama UML
 
