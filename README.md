@@ -75,5 +75,8 @@ bemestruturado/
 ```
 
 ## Diagrama UML
+Antes
+<img width="3840" height="1597" alt="UML ANTES (sala Inteli)" src="https://github.com/user-attachments/assets/cecbc6ea-5046-48b1-b81d-02b79f74d0c0" />
+
 
 ## Documentação Técnica
