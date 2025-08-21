@@ -76,7 +76,11 @@ bemestruturado/
 
 ## Diagrama UML
 Antes
-<img width="3840" height="1597" alt="UML ANTES (sala Inteli)" src="https://github.com/user-attachments/assets/cecbc6ea-5046-48b1-b81d-02b79f74d0c0" />
+<img width="3840" height="1597" alt="UML ANTES (sala Inteli)" src="https://github.com/user-attachments/assets/cecbc6ea-5046-48b1-b81d-02b79f74d0c0" /> 
+
+Depois
+<img width="3840" height="1585" alt="Untitled diagram _ Mermaid Chart-2025-08-21-010709" src="https://github.com/user-attachments/assets/ee47aff7-8d8d-4ef4-a90a-c6ef717727bc" />
+
 
 
 ## Documentação Técnica
