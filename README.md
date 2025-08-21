@@ -119,11 +119,11 @@ Na versão refatorada (pasta `bemestruturado/`), aplicamos **padrões de projeto
   - Essa separação aumenta a coesão e deixa o projeto mais claro.  
 
 ## Diagrama UML
-Antes
+**Antes**
 <img width="3840" height="1588" alt="Untitled diagram _ Mermaid Chart-2025-08-21-011148" src="https://github.com/user-attachments/assets/40aee2ea-761a-4a71-9bf8-b67c23b3d06d" />
 
 
-Depois
+**Depois**
 <img width="3840" height="1585" alt="Untitled diagram _ Mermaid Chart-2025-08-21-010709" src="https://github.com/user-attachments/assets/ee47aff7-8d8d-4ef4-a90a-c6ef717727bc" />
 
 
