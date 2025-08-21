@@ -73,6 +73,50 @@ bemestruturado/
  │    └── SensorFactory.java
  └── Main.java
 ```
+## Problemas da Versão Inicial
+
+Na primeira versão do código, alguns **anti-padrões** e **más práticas** foram detectados:
+
+1. **God Class (Classe Deus)**  
+   - Classes como `SalaInteligente`, `SensorService` e `RelatorioService` acumulavam muitas responsabilidades.  
+   - Isso dificultava a manutenção e violava o princípio da responsabilidade única (SRP).
+
+2. **Switch/If Excessivo**  
+   - A lógica de criação de sensores e geração de relatórios dependia de condicionais (`if/switch`) espalhados pelo código.  
+   - Isso gerava **alto acoplamento** e dificultava a adição de novos sensores ou formatos de relatórios.
+
+3. **Falta de Extensibilidade**  
+   - Para incluir um novo tipo de sensor ou relatório, era necessário **alterar várias classes existentes**.  
+   - Violação direta do princípio **Open/Closed (OCP)**.
+
+4. **Baixa Coesão**  
+   - Todas as classes estavam no mesmo pacote.  
+   - Isso tornava a navegação e entendimento do código confusos.
+
+---
+
+## Versão Refatorada
+
+Na versão refatorada (pasta `bemestruturado/`), aplicamos **padrões de projeto** para corrigir esses problemas.
+
+### Padrões Aplicados
+
+- **Factory Method**  
+  - Implementado em `SensorFactory` e `RelatorioFactory`.  
+  - Centraliza a criação de objetos, eliminando `if/switch` espalhados e facilitando a adição de novos sensores e relatórios.  
+
+- **Strategy**  
+  - Implementado com a interface `AcaoStrategy` e a classe `AcenderLuz`.  
+  - Permite variar o comportamento das ações aplicadas aos sensores sem modificar o código existente.  
+
+- **Polimorfismo e Herança**  
+  - A classe abstrata `Sensor` foi criada, e cada tipo (`TemperaturaSensor`, `PresencaSensor`, `LuminosidadeSensor`) ganhou sua própria implementação.  
+  - Isso substituiu condicionais por herança e polimorfismo.  
+
+- **Organização em Pacotes**  
+  - `model/` → contém entidades de domínio (`Sensor`, `SensorTipo`, sensores específicos).  
+  - `service/` → contém lógicas de negócio, estratégias e fábricas.  
+  - Essa separação aumenta a coesão e deixa o projeto mais claro.  
 
 ## Diagrama UML
 Antes
