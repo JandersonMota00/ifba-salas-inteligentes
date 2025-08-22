@@ -129,3 +129,5 @@ Na versão refatorada (pasta `bemestruturado/`), aplicamos **padrões de projeto
 
 
 ## Documentação Técnica
+[Relatrio Atv 6 Padrões.pdf](https://github.com/user-attachments/files/21936467/Relatrio.Atv.6.Padroes.pdf)
+
